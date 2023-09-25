@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "coursework3"
+version = "0.1.0"
+description = ""
+authors = ["rochev90 <k.e.rochev@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+coverage = "^7.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
